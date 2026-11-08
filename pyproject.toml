@@ -1,0 +1,9 @@
+[project]
+name = "maintenai"
+version = "0.1.0"
+description = "Détection d'anomalies et assistant IA pour la maintenance industrielle"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

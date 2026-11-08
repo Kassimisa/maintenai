@@ -1,0 +1,30 @@
+# Environnement Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Données (téléchargées ou privées : jamais sur GitHub)
+data/skab/
+data/index/
+data/manuals/*
+!data/manuals/.gitkeep
+data/raw/
+_skab_check/
+
+# Modèles entraînés
+models/
+
+# Résultats générés (sauf les métriques de référence)
+results/*
+!results/metrics_per-file.json
+!results/metrics_global.json
+
+# Divers
+.env
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
